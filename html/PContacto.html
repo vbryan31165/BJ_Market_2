@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <title>Contacto</title>
+</head>
+
+<body onload="doShowAll()">
+  <nav class="navbar navbar-expand-lg bg-dark bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../html/Pprincipal.html">JB-Market</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Pprincipal.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="POfertas.html">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PCategorias.html">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PCatalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="PContacto.html" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contacto
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="PContacto.html">Contactenos</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="PTrabaja_Con_Nosotros.html">Trabaja con nosotros</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="PSucursales.html">Sucursales</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ul>
+            <li class="nav-item position-absolute bottom-0 end-0">
+                <a class="nav-link" href="#" onclick="return cerrar()">
+                    <p class="name" id="dato_usuario"></p>
+                </a>
+            </li>
+        </div>
+    </div>
+</nav>
+
+  <br /><br />
+  <div class="container">
+    <div class="banner">
+      <header>
+        <img src="../img/bannerofe.jpg" alt="" class="img-fluid" />
+      </header>
+      <div class="contenid">
+        <hr />
+        <marquee>CONTACTO</marquee>
+        <hr />
+      </div>
+    </div>
+    <!--banner-->
+
+    <br /><br />
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div style="text-align: justify" class="">
+          <h2><em>Contacta con Nosotros</em></h2>
+          <br />
+          <p class="inf">
+            Hola bienvenido a nuestra pag web, en que podemos ayudarte, no te
+            olvides de dar todos los datos necesarios ademas se muestra alguna
+            informacion basica sobre: Nosotros como contacto, direccion, email
+            etc. Te agradesco que te pases por mi pag, muy pronto estara
+            actualizada buscando la comodidad del usuario.<br />
+            <br /><em>autores: Jose Castrillon & Bryan Villanueva</em><br />
+            <em>contacto: 3007306952 - 3014739559<br />
+              Correos:<br>
+              <strong>><a href="mailto: jmcastrillon@itsa.edu.co"
+                  class="email-contacto">jmcastrillon@itsa.edu.co</a></strong><br />
+              <strong>><a href="mailto: Bryan.31165@gmail.com" class="email-contacto">Bryan.31165@gmail.com</a></strong>
+            </em>
+          </p>
+          <br />
+        </div>
+        <br /><br /><br />
+        <h1>COMO LLEGAR</h1>
+        <br />
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.3970707741365!2d-74.816431870863!3d10.918861716340308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2fa05fac391%3A0x2c4e1d7507327e57!2sCra.%2019a%20%2380-2%2C%20Soledad%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1598054795457!5m2!1ses!2sco"
+            frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <br>
+        <hr><br>
+        <!--contenedor mapa-->
+      </div>
+      <div class="col-lg-4 hidden-xs (only) = d-none d-sm-block (same as hidden-xs-down)
+      ">
+        <div style="background: #affeed ">
+          <h2 class="text-center ">Comentarios</h2>
+          <form class="p-3">
+            <label class="form-label" for="usuario">Usuario: </label>
+            <input class="form-control" type="text" id="usuario" /><br />
+            <label class="form-label" for="tip">Tipo de solicitud:</label><br />
+            <input type="radio" name="tip" id="tip" class="form-check-input" />
+            Peticiones <br />
+            <input class="form-check-input" type="radio" name="tip" id="tip" />
+            Quejas <br />
+            <input class="form-check-input" type="radio" name="tip" id="tip" />
+            Reclamos<br /><br />
+            <label class="form-label" for="fecha">Fecha:</label>
+            <div class="row">
+              <div class="col-lg-8">
+                <input class="form-control" type="date" id="fecha" />
+              </div>
+              <div class="col-lg-4">
+                <input class="form-control form-control-sm" type="time" id="fecha" />
+              </div>
+            </div>
+            <br />
+            <label class="form-label" for="archivo">Captura:</label>
+            <input type="file" class="form-control form-control-sm" /><br />
+            <label class="form-label" for="rango">Nivel de satisfaccion:</label><br />
+            <input class="form-control" type="range" name="miRango" id="rango" min="0" max="10" step="1" /><br />
+            <label class="form-label" for="comen">Comentario:</label><br />
+            <textarea class="form-control" id="comen" rows="4"></textarea>
+            <div class="row mt-3 pb-3">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-8">
+                <input class="btn btn-primary" type="submit" />
+                <input class="btn btn-danger" type="reset" />
+              </div>
+
+              <br />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-lg-12 ">
+            <section class="form-register p-4 bg-info">
+              <h2 class="text-center">Formulario de registro</h2>
+              <br />
+              <form name="Listas" onSubmit="return Validar_C()" ;>
+                <label class="form-label">Nombre</label>
+                <input class="form-control" type="text" placeholder="" id="txtnombre" name="nombre" /><br />
+                <label class="form-label">Apellido</label>
+                <input class="form-control" type="text" placeholder="" id="txtapellido" name="apellido" /><br />
+                <label class="form-label">Correo</label>
+                <input class="form-control" type="email" placeholder="" id="txtemail" name="correo" /><br />
+                <label class="form-label">Numero</label>
+                <input class="form-control" type="number" placeholder="" id="numcelular" name="celular" /><br />
+                <input type="hidden" placeholder="" id="member_id" name=member_id>
+                <label class="form-label" for="tipo">Tipo de cuenta:</label><br />
+                <input class="form-check-input" type="radio" name="type" id="tipo" />Basico<br />
+                <input class="form-check-input" type="radio" name="type" id="tipo" />Premium<br />
+                <input class="form-check-input" type="radio" name="type" id="tipo" />Diamante<br /><br />
+                <div class="row">
+                  <div class="col-lg-3">
+                    <label class="form-label" for="opcion">Suscripcion:
+                    </label>
+                  </div>
+                  <div class="col-lg-9">
+                    <select class="form-control" name="opcion" id="option">
+                      <option select>1 Mes</option>
+                      <option>2 Meses</option>
+                      <option>5 Meses</option>
+                      <option>10 Meses</option>
+                      <option>1 Año</option>
+                      <option>2 Años</option>
+                    </select>
+                  </div>
+                </div>
+                <br />
+
+                <br /><br />
+                <div class="col-lg-12 text-center"><input class="form-check-input" type="checkbox" name="" id="terminos"
+                    required /><em>
+                    Estoy de acuerdo con
+                    <a href="../html/TYC.html"> Términos y Condiciones </a></em>
+                </div>
+                <div class="col-lg-12 text-center">
+                  <p style="color: red;" id="error_msg"></p>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-8">
+                    <input class="btn btn-primary" type="submit" value="Enviar" id="btnregistrar" />
+
+                    <input class="btn btn-danger" type="reset" />
+                  </div>
+                  <div class="col-lg-1"></div>
+                  <br /><br />
+                  <p class="text-center">
+                    <a href="#">¿No tengo una cuenta?</a>
+                  </p>
+                </div>
+              </form>
+              <!--form de registro-->
+            </section>
+            <!--.formulario de registro-->
+            <div class="row">
+              <div class="col-lg-12  table-responsive">
+                <h3 class="text-center">DATOS REGISTRADOS</h3>
+                <label>
+                  <input type="button" value="Borrar" onclick="ClearAll()" />
+                  <i>* Remover todos los campos</i></label>
+                <table id="list"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <hr />
+  </div>
+  <div class="container-fluid">
+    <div class="row bg-dark">
+        <div class="col-lg-1 col-1"></div>
+        <div class="col-lg-8 col-12">
+            <p style="color: white">Publicado por Bryan Villanueva y Jose Castrillon <br> ©JCastrillon - BVillanueva
+                <br>
+                Direccion: kra 29A 80b 10 <br> Todos
+                los derechos reservados <br>
+                Se han bienvenidos a nuestra pag web espero y les guste
+            </p>
+
+        </div>
+        <div class="col-lg-3 col-12 align-self-center">
+            <br>
+            <div class="row">
+                <div class="col-lg-3 col-3">
+                    <a href="https://es-la.facebook.com/">
+                        <img src="../img/fb.png" alt="" class="img-fluid w-75" /></a>
+                </div>
+                <div class="col-lg-3  col-3">
+                    <a href="https://twitter.com/?lang=es">
+                        <img src="../img/tw.png" alt="" class="img-fluid w-75" /></a>
+                </div>
+                <div class="col-lg-3  col-3">
+                    <a href="mailto:jmcastrillon@itsa.edu.co">
+                        <img src="../img/gm.png" alt="" class="img-fluid w-75" /></a>
+                </div>
+                <div class="col-lg-3  col-3">
+                    <a href="https://www.instagram.com/?hl=es">
+                        <img src="../img/insta.png" alt="" class="img-fluid w-75" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/Storage.js"></script>
+<script src="../js/inserDiv.js"></script>
+<script src="../js/bootstrap.js"></script>
+
+</html>
