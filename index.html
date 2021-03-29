@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Inicio de sesion</title>
+</head>
+
+<body style="background-image: url(./img/form.jpg);">
+    <br><br>
+    <div class="container fluid" style="background-image: url(./img/form.jpg);">
+        <div class="row">
+            <div class="col-lg-3 px-5 pt-1 ">
+                <img src="./img/usuer.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <form method="POST" id="Form_inicio">
+                    <br>
+                    <h2 style="color: rgb(8, 209, 8); font-family: 'Times New Roman', Times, serif;">Login In</h2><br>
+                    <label for="txtuser" class="form-label text-white">USUARIO :</label>
+                    <input type="text" class="form-control" id="txtuser" placeholder="Username (+_*) " /><br><br>
+                    <label for="txtcontra" class="form-label text-white">CONTRASEÑA :</label>
+                    <input type="password" class="form-control" id="txtcontra" placeholder="Password (+_+)" /><br><br>
+                    <input type="button" value="INICIAR" onclick="validarcampos()" class="btn btn-primary">
+                    <input type="button" value="LIMPIAR" onclick="limpiar()" class="btn btn-danger">
+                    <br><br>
+                </form>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="bg-danger text-white text-center" id="res">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 p-2 text-white">
+                <samp">
+                    Direccion: Kra 29A 80b 10 -
+                    Publicado por Bryan Villanueva & Jose Castrillon
+                    ©JCastrillon - BVillanueva - All rights reserved Se han bienvenidos a nuestra pag web espero y les
+                    guste :)
+                    </samp>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+</body>
+<script src="js/Js_inicio.js"></script>
+
+</html>

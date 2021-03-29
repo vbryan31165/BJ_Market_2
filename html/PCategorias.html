@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categoria</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+
+  <script src="../js/bootstrap.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg bg-dark bg-dark navbar-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="../html/Pprincipal.html">JB-Market</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Pprincipal.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="POfertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="PCategorias.html">Categorias</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="PCatalogo.html">Catalogo</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="PContacto.html" id="navbarDropdownMenuLink"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li>
+                          <a class="dropdown-item" href="PContacto.html">Contactenos</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="PTrabaja_Con_Nosotros.html">Trabaja con nosotros</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="PSucursales.html">Sucursales</a>
+                      </li>
+                      
+                  </ul>
+              </li>
+          </ul>
+          <li class="nav-item position-absolute bottom-0 end-0">
+              <a class="nav-link" href="#" onclick="return cerrar()">
+                  <p class="name" id="dato_usuario"></p>
+              </a>
+          </li>
+      </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center" data-bs-interval="10000">
+            <img src="../img/categorias.png" class="img-fluid" alt="...">
+          </div>
+          <div class="carousel-item text-center" data-bs-interval="2000">
+            <img src="../img/sale-1067126_1280.jpg" class=" img-fluid" alt="...">
+          </div>
+          <div class="carousel-item text-center" data-bs-interval="10000">
+            <img src="../img/a-discount-2986181_1280.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <scrip src="../Js/bootstrap.js"></scrip>
+    </div>
+
+  </div>
+  <br>
+
+  <br><br>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <hr>
+      <div class="row">
+        <div class="col-lg-6 table-responsive hidden-xs (only) = d-none d-sm-block (same as hidden-xs-down)
+        ">
+          <table class="table table table-hover">
+            <thead>
+              <tr>
+                <th scope="row" class="text-center" colspan="6">---CATEGORIAS---</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Despensa</th>
+                <th>Bebidas</th>
+                <th>Mascotas</th>
+                <th>Beses</th>
+                <th>Cuidado Personal</th>
+                <th>Limpieza</th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Cerelaes</li>
+                    <li>Frutos Secos</li>
+                    <li>Arroz</li>
+                    <li>Granos</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Gaseosa</li>
+                    <li>Jugos Naturales</li>
+                    <li>Licores</li>
+                    <li>Yogures</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Comida Perros</li>
+                    <li>Comida Gatos</li>
+                    <li>Juguetes</li>
+                    <li>Arena Gatos</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Pañales</li>
+                    <li>Ropa</li>
+                    <li>Juguetes</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Shampoo</li>
+                    <li>Enjuague</li>
+                    <li>Sona Intima</li>
+                    <li>Desodorante</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Detergente</li>
+                    <li>Cloros</li>
+                    <li>Jabones</li>
+                    <li>Limpidos</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4 bg-info p-4">
+          <hr>
+          <h1>Sugerencias</h1>
+          <p>Si desea una categoria o producto adicional, dejenos sus datos y llene el formulario de abajo:</p>
+          <div class="row">
+            <form action="">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Correo" aria-label="First name">
+              </div>
+              <br>
+              <hr>
+              <br>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Bebidas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Despensa</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Mascota</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Cuidado Personal</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Limpieza</label>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col text-center">
+              <label for="exampleFormControlInput1" class="form-label">Otra :</label>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Escriba..." aria-label="First name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"><br>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+            <div class="col"><br>
+              <button type="reset" class="btn btn-danger">Limpiar</button>
+            </div>
+            <div class="col"></div>
+          </div>
+          </form>
+          <br>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <hr>
+        <p class="text-center">---PRODUCTOS---</p>
+        <p style="text-align: justify;">Encuentra en JB-Market harinas, endulzantes, pastas, cereales, granos, café y
+          una gran
+          variedad de productos gourmet con alto valor nutricional, ademas de las mejoresbebidas alcoholicas con
+          grandes descuento. Lleva la mejor calidad a tu despensa, elige de acuerdo a tus gustos y alcanza un
+          exquisito sabor en todas tus preparaciones… ¡Te llevaremos el pedido a la puerta de tu casa! y lo mejor sin
+          ningun costo.
+        </p>
+        <hr>
+        <img src="../img/envio_gratis.jpg" class="img-fluid" alt="">
+        <br><br>
+      </div>
+      <div class="col-lg-6">
+
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+<div class="container-fluid">
+  <div class="row bg-dark">
+  <div class="col-lg-1 col-1"></div>
+  <div class="col-lg-8 col-12">
+      <p style="color: white">Publicado por Bryan Villanueva y Jose Castrillon <br> ©JCastrillon - BVillanueva
+          <br>
+          Direccion: kra 29A 80b 10 <br> Todos
+          los derechos reservados <br>
+          Se han bienvenidos a nuestra pag web espero y les guste
+      </p>
+
+  </div>
+  <div class="col-lg-3 col-12 align-self-center">
+      <br>
+      <div class="row">
+          <div class="col-lg-3 col-3">
+              <a href="https://es-la.facebook.com/">
+                  <img src="../img/fb.png" alt="" class="img-fluid w-75" /></a>
+          </div>
+          <div class="col-lg-3  col-3">
+              <a href="https://twitter.com/?lang=es">
+                  <img src="../img/tw.png" alt="" class="img-fluid w-75" /></a>
+          </div>
+          <div class="col-lg-3  col-3">
+              <a href="mailto:jmcastrillon@itsa.edu.co">
+                  <img src="../img/gm.png" alt="" class="img-fluid w-75" /></a>
+          </div>
+          <div class="col-lg-3  col-3">
+              <a href="https://www.instagram.com/?hl=es">
+                  <img src="../img/insta.png" alt="" class="img-fluid w-75" /></a>
+          </div>
+      </div>
+  </div>
+  </div>
+</div><!--pie-->
+</body>
+<script src="../js/inserDiv.js"></script>
+
+</html>

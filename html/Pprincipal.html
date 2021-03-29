@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <script src="../js/bootstrap.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../html/Pprincipal.html">JB-Market</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Pprincipal.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="POfertas.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PCategorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PCatalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="PContacto.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacto
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="PContacto.html">Contactenos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="PTrabaja_Con_Nosotros.html">Trabaja con nosotros</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="PSucursales.html">Sucursales</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                <li class="nav-item position-absolute bottom-0 end-0">
+                    <a class="nav-link" href="#" onclick="return cerrar()">
+                        <p class="name" id="dato_usuario"></p>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <img src="../img/banner-landing-covid.c8fa9460.jpg" class="img-fluid" />
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <hr />
+                <marquee>BIENVENIDO A NUESTRA TIENDA</marquee>
+                <hr />
+            </div>
+        </div>
+        <br /><br />
+
+        <div class="row">
+            <div class="col-12 bg-info">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <button disabled="disabled" class="btn">BJ-Market</button>
+                    </div>
+                    <div class="col-lg-7">
+                        <input class="form-control" type="text" placeholder="Escriba aqui..."
+                            aria-label="readonly input example" />
+                    </div>
+                    <div class="col-lg-1">
+                        <button type="button" class="btn btn-success">Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <br />
+            <div style="text-align: justify" class="col-lg-4">
+                <br />
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <h1 class="text-center display-6">BJ-Market : shop online</h1>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <br />
+                <p>
+                    Este sitio es un sitio web, para la asignatura electiva de
+                    mantenimiento de paginas web, de la Institucion Universitaria ITSA.
+                    En la cual se pone en practica todo el conocimiento aquirido y visto
+                    a lo largo de todo el cuatrimestre de clases. <br />
+                    La pagina consiste en la creacion de en un sitio web, sobre un
+                    supermercado online, responsive, Java Scrip, CSS, html, bootstrap,
+                    bases de datos y mas cosas que se aprenderan en el trascurso del
+                    modulo.
+                    <br />
+                    La pagina mantiene una estructura de: De una imagen de cabecera
+                    aluciva al tema (supermercado), menu de navegacion con sus
+                    respectivas opciones, etiqueta marquee, un video alucivo al tema de
+                    la pagina, imagenes, y por ultimo su pie de pagina donde se
+                    encuentra informacion de los creadores.
+                    <br />
+                    Muchas gracias por su atencion y comprension, estaremos realizando
+                    mejoras, esperemos que les guste y no olvien dejar su opinion en la
+                    pagina de contactenos :)
+                </p>
+            </div>
+            <br />
+            <div class="col-lg-4 embed-responsive embed-responsive-16by9">
+                <br />
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <h1 class="text-center display-6">Video Introductivo</h1>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <br />
+                <center>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wS9bPLYBRtg"
+                        allowfullscreen></iframe>
+                </center>
+            </div>
+            <br />
+            <div style="text-align: justify" class="col-lg-4">
+                <br />
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <h1 <h1 class="text-center display-6">Medidas Preventivas</h1>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <br />
+                <p>
+                    Medidas preventivas para proteger a quienes trabajan en caja y a los
+                    clientes cuando llegan a esa zona Instalación de mamparas de
+                    metacrilato, para separar a trabajador y cliente. Facilitar,
+                    publicitar y promover el uso del pago con tarjeta o móvil. Evita el
+                    contacto directo entre cajero y cliente, y elimina los riesgos que
+                    entraña el manipular dinero, que pasa por numerosas manos.
+                </p>
+                <hr />
+
+                <img src="../img/icos-covid.jpg" class="rounded mx-auto d-block img-fluid w-25" alt="..." />
+                <hr />
+                <p>
+                    En esa zona, además de establecer en el suelo bandas que indiquen la
+                    separación obligatoria entre las personas que esperan a ser
+                    atendidas, contar con personal de seguridad que vigile y, si fuera
+                    necesario, dirija, el tránsito. Que se dé prioridad a personas
+                    mayores o con movilidad reducida o que se establezcan algunos
+                    horarios exclusivos para ellas.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-dark">
+            <div class="col-lg-1 col-1"></div>
+            <div class="col-lg-8 col-12">
+                <p style="color: white">Publicado por Bryan Villanueva y Jose Castrillon <br> ©JCastrillon - BVillanueva
+                    <br>
+                    Direccion: kra 29A 80b 10 <br> Todos
+                    los derechos reservados <br>
+                    Se han bienvenidos a nuestra pag web espero y les guste
+                </p>
+
+            </div>
+            <div class="col-lg-3 col-12 align-self-center">
+                <br>
+                <div class="row">
+                    <div class="col-lg-3 col-3">
+                        <a href="https://es-la.facebook.com/">
+                            <img src="../img/fb.png" alt="" class="img-fluid w-75" /></a>
+                    </div>
+                    <div class="col-lg-3  col-3">
+                        <a href="https://twitter.com/?lang=es">
+                            <img src="../img/tw.png" alt="" class="img-fluid w-75" /></a>
+                    </div>
+                    <div class="col-lg-3  col-3">
+                        <a href="mailto:jmcastrillon@itsa.edu.co">
+                            <img src="../img/gm.png" alt="" class="img-fluid w-75" /></a>
+                    </div>
+                    <div class="col-lg-3  col-3">
+                        <a href="https://www.instagram.com/?hl=es">
+                            <img src="../img/insta.png" alt="" class="img-fluid w-75" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/inserDiv.js"></script>
+
+</html>

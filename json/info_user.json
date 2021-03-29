@@ -1,0 +1,34 @@
+[
+    {
+        "user":"lNFIERN0677",
+        "passw":"admin1234",
+        "name":"Jose",
+        "lastname":"Castrillon",
+        "Tipo":"Admin",
+        "email":"jmcastrillon@itsa.edu.co"
+    },
+    {
+        "user":"BryanV",
+        "passw":"admin2002",
+        "name":"Bryan",
+        "lastname":"Villanueva",
+        "Tipo":"Admin",
+        "email":"bavillanueva@itsa.edu.co"
+    },
+    {
+        "user":"BryanF",
+        "passw":"admindoc",
+        "name":"Bryan",
+        "lastname":"Fernandez",
+        "Tipo":"Admin",
+        "email":"bjfernandez@itsa.edu.co"
+    },
+    {
+        "user":"invitado",
+        "passw":"invitado",
+        "name":"Kenny",
+        "lastname":"Bell",
+        "Tipo":"Invitado",
+        "email":"invitado@itsa.edu.co"
+    }
+]
